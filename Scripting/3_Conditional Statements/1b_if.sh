@@ -10,12 +10,12 @@ then
 	echo a equal to b
 fi
 
-if [ $a == $b ]
+if [ $a -eq $b ]
 then
    echo "a is equal to b"
 fi
 
-if [[ $a != $b ]]
+if [ $a -ne $b ]
 then
    echo "a is not equal to b"
 fi

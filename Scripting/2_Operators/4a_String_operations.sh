@@ -11,14 +11,14 @@ string   ==> Checks if string is empty
 a=""
 b="efg"
 
-if [ $a = $b ]
+if [ "$a" = "$b" ]
 then
    echo "$a = $b : a is equal to b"
 else
    echo "$a = $b: a is not equal to b"
 fi
 
-if [ $a != $b ]
+if [ "$a" != "$b" ]
 then
    echo "$a != $b : a is not equal to b"
 else

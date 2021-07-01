@@ -12,7 +12,7 @@ cmd1 || cmd2
 a=10
 b=20
 
-if ! [[ $a != $b ]]
+if ! [ $a -ne $b ]
 then
    echo "$a != $b: a is equal to b"
 else
